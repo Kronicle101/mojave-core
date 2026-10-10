@@ -1,0 +1,25 @@
+LIBRARY d3d9
+EXPORTS
+    Ordinal16=FwdOrdinal16 @16 NONAME
+    Ordinal17=FwdOrdinal17 @17 NONAME
+    Ordinal18=FwdOrdinal18 @18 NONAME
+    Ordinal19=FwdOrdinal19 @19 NONAME
+    Direct3DCreate9On12=FwdCreate9On12 @20
+    Direct3DCreate9On12Ex=FwdCreate9On12Ex @21
+    Ordinal22=FwdOrdinal22 @22 NONAME
+    Ordinal23=FwdOrdinal23 @23 NONAME
+    Direct3DShaderValidatorCreate9=FwdShaderValidator @24
+    PSGPError=FwdPSGPError @25
+    PSGPSampleTexture=FwdPSGPSampleTexture @26
+    D3DPERF_BeginEvent=FwdBeginEvent @27
+    D3DPERF_EndEvent=FwdEndEvent @28
+    D3DPERF_GetStatus=FwdGetStatus @29
+    D3DPERF_QueryRepeatFrame=FwdQueryRepeatFrame @30
+    D3DPERF_SetMarker=FwdSetMarker @31
+    D3DPERF_SetOptions=FwdSetOptions @32
+    D3DPERF_SetRegion=FwdSetRegion @33
+    DebugSetLevel=FwdDebugSetLevel @34
+    DebugSetMute=FwdDebugSetMute @35
+    Direct3D9EnableMaximizedWindowedModeShim=FwdMaximizedShim @36
+    Direct3DCreate9=_ProxyCreate9@4 @37
+    Direct3DCreate9Ex=_ProxyCreate9Ex@8 @38
